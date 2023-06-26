@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Configurações gerais */
+
+section, .section{
+    width: 100%;
+}
+
+.max-width{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.blue-background{
+    background-color: rgba(47, 134, 214, 1);
+}
+
+.dark-background{
+    background-color: #233032;
+}
+
+a{
+    text-decoration: none;
+}
+
