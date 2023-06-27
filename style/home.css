@@ -118,3 +118,50 @@ h1{
     margin-bottom: 10px;
 }
 
+/* Section-C, Section-F */
+
+.section_c, .section_f{
+    display: flex;
+    align-items: center;
+    padding: 55px 0;
+}
+
+.marketing{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.marketing-text{
+    color: #fff;
+}
+
+.marketing-text h3{
+    font-size: 24px;
+}
+
+.marketing-text p{
+    font-size: 16px;
+}
+
+.link-button{
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.link-button a{
+    color: #fff;
+    font-weight: 650;
+}
+
+.link-button a::before{
+    content: "000";
+    width: 10px;
+    height: 10px;
+    background-image: url('../assets/icone-foguete.png');
+    background-repeat: no-repeat;
+    color: rgba(255, 255, 255, 0);
+    background-position: center;
+}
+
