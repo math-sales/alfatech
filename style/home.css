@@ -82,3 +82,39 @@ h1{
 .logo-text p{
     font-weight: 600;
 }
+
+/* Section-B */
+
+.section_b{
+    padding: 125px 0px;
+}
+
+.content-a{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner img{
+    width: 70%;
+}
+
+.anuncio-text{
+    width: 470px;
+    text-align: left;
+}
+
+.anuncio-text p{
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.anuncio-text h2{
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
