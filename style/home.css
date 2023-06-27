@@ -255,3 +255,38 @@ th p{
     margin: auto;
 }
 
+/* Footer */
+
+.footer{
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.footer .logo{
+    margin: 50px auto;
+}
+
+.footer-text p{
+    font-weight: 500;
+    margin: 0 auto 10px;
+}
+
+.assinatura{
+    background-color: #f1f3f7;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-weight: 700;
+}
+
+.ass{
+    color: rgba(47, 134, 214, 1);
+}
+
