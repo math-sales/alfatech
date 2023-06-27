@@ -29,7 +29,7 @@ section, .section{
     background-color: rgba(47, 134, 214, 1);
 }
 
-.color-blue{
+.blue-font{
     color: rgba(47, 134, 214, 1);
 }
 
@@ -39,6 +39,12 @@ section, .section{
 
 a{
     text-decoration: none;
+}
+
+h4{
+    font-size: 32px;
+    color: #000000;
+    margin: 40px 0 25px;
 }
 
 /* Header */
@@ -165,3 +171,35 @@ h1{
     background-position: center;
 }
 
+/* Section-D */
+
+.section_d{
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.container-cards{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+.box-card{
+    width: 40%;
+    text-align: center;
+}
+
+.box-card img{
+    width: 40%;
+    margin: 10px 0;
+}
+
+.box-card h5{
+    margin: 10px 0;
+}
+
+.box-card p{
+    margin: 10px 0;
+    font-size: 16px;
+    color: #000000;
+}
