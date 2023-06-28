@@ -258,7 +258,7 @@ th p{
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .footer .logo{
